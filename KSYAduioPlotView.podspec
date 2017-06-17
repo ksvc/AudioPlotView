@@ -13,14 +13,18 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
                    # DESC
   s.homepage     = "https://github.com/sunyazhou13/AudioPlotView"
-  s.license      = "MIT (example)"
+  s.license      = {:type => 'Proprietary', :text => <<-LICENSE
+      Copyright 2017 kingsoft Ltd. All rights reserved.
+      LICENSE
+    }
+
   s.author             = { "sunyazhou" => "sunyazhou@kingsoft.com" }
   s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/sunyazhou13/AudioPlotView.git", 
                      :tag => s.version }
-  s.exclude_files = [ 'KSYAduioPlotView/KSYPlotCircularBuffer.{h,c}', 'KSYAduioPlotView/KSYAudioFile.h'
-  s.ios.frameworks = 'AudioToolbox','AVFoundation','GLKit', 'Accelerate','AudioToolbox'
+  s.exclude_files = ['KSYAduioPlotView/KSYPlotCircularBuffer.{h,c}', 'KSYAduioPlotView/KSYAudioFile.h']
+  s.ios.frameworks = 'AudioToolbox','AVFoundation','GLKit', 'Accelerate'
   # s.osx.frameworks = 'AudioToolbox','AudioUnit','CoreAudio','QuartzCore','OpenGL','GLKit', 'Accelerate'
   s.requires_arc = true;
   s.source_files  = 'KSYAduioPlotView/*.{h,m,c}'
