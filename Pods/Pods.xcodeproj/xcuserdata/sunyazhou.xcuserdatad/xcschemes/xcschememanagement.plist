@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KSYAudioPlotView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AudioPlotDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AFBBD8FFC09037490FD9EAD5472B6485</key>
+		<key>820B00B97652883F2984D76CB2851E45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7D9E2E01C40D4480B476D43B6D9DE80</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -6,5 +6,5 @@ target 'AudioPlotDemo' do
   # use_frameworks!
 
   # Pods for AudioPlotDemo
-
+  pod 'KSYAudioPlotView'
 end

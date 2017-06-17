@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "KSYAudioPlotView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Audio Waveform view"
   # s.description  = <<-DESC
                    # DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     }
 
   s.author             = { "sunyazhou" => "sunyazhou@kingsoft.com" }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
   # s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/sunyazhou13/AudioPlotView.git", 
                      :tag => s.version }

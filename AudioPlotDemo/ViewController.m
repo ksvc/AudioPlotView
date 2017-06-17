@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 
-#import "KSYAudioPlotView.h"
-#import "KSYAudioFile.h"
+#import <KSYAudioPlotView/KSYAudioPlot.h>
+
 
 #define kAudioFileDefault [[NSBundle mainBundle] pathForResource:@"17yeasold" ofType:@"mp3"]
 

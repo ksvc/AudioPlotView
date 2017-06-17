@@ -7,41 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A2DB08C137AF1A7C3A47CBDD12F5B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		536ECA0A903C2678059B0DD9576FA0A4 /* Pods-AudioPlotDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 819E718B2303B202207F32BE5DC16DFB /* Pods-AudioPlotDemo-dummy.m */; };
+		181B569E09DE169D1BE40724ACD7665C /* KSYPlotCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = A8DD52CD9DA2C9DAC14D4F6A7C4D6DAC /* KSYPlotCircularBuffer.c */; };
+		1FA4B812CCC1036C49176FE4CF910346 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6E5A357889F946561108EBE7AA4D73 /* Accelerate.framework */; };
+		274B6AC3513FD633545F2926FCA9AF45 /* KSYAudioUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 26913C5DE27C6B14F5293F61CA05AD4D /* KSYAudioUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE37F5E09B2D2118A77BAA7E33258D7 /* KSYAudioPlotView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E59CBC96653F2F25A4A8A871411A /* KSYAudioPlotView-dummy.m */; };
+		4BFCA0D3FB833ECDFFE5EDF0E8266261 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D6602818753C9C6473D1834E00D715 /* GLKit.framework */; };
+		540F5918280412AF6AF7567AF6B617AA /* Pods-AudioPlotDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 819E718B2303B202207F32BE5DC16DFB /* Pods-AudioPlotDemo-dummy.m */; };
+		6656878E7588DCC6A5033737ED211F90 /* KSYAudioDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B196A75A4D2ABADFE51576BE75FB68 /* KSYAudioDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676E3E8FC3043B5B966525D61BCC6218 /* KSYAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 22875ADEAF63C48ACEADA2E589429F74 /* KSYAudioFile.m */; };
+		700B0A07BC476FAB80B2BBD84CD1A306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ECBC1903F449E85BC6118388F4E815 /* Foundation.framework */; };
+		7A0B7B2C71214C2547192EC7052A3D0E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206847552DB87A9E22095490C1FB19CD /* AVFoundation.framework */; };
+		8A3389AC701A945A3F241E8633249D94 /* KSYAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A4BB93A69957B628A9CD2162014DB /* KSYAudioUtilities.m */; };
+		95F396AE88FE69CD57B2362CE9A150F9 /* KSYAudioPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780317433DF24E8A7888E7290CFAABAD /* KSYAudioPlotView.m */; };
+		9AC5E6A507BAB089E6DB81CA8ED0C945 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA17D937CA6EFF5598507021D696FB4 /* AudioToolbox.framework */; };
+		9E67DB22BEBCC9EA02C989AEB41D458D /* KSYPlotCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE7C739B3F874B846CBF6424E8EAE8F /* KSYPlotCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9A6B8066441415458A55D53F17D60EF /* KSYAudioPlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF0B9841A507965A304604D42001F61 /* KSYAudioPlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAF6454DE7E4A3E1DA038710520F8F8A /* KSYAudioPlot.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A5A707771CA1F2A369C30DCAEE79BE /* KSYAudioPlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E870ACC778EB6CDDE64E2398FB9E0F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ECBC1903F449E85BC6118388F4E815 /* Foundation.framework */; };
+		EC28B7EF8C491459895255DA1D28B9F1 /* KSYAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2F773B5C071CCAB6435FB1F03D35BA /* KSYAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6C069A8D148566410B9070874D93B4 /* KSYAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3E511ED15967E9B292FBAC24053E2 /* KSYAudioDisplayLink.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CBD712BA38C1299BFAE01A67AD894E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820B00B97652883F2984D76CB2851E45;
+			remoteInfo = KSYAudioPlotView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		085309B3AA33C9F97340443B8B0212D6 /* Pods-AudioPlotDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioPlotDemo-resources.sh"; sourceTree = "<group>"; };
 		1ED6E04A42D12150B6EF8397DE5B169C /* Pods-AudioPlotDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioPlotDemo.release.xcconfig"; sourceTree = "<group>"; };
+		206847552DB87A9E22095490C1FB19CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		22875ADEAF63C48ACEADA2E589429F74 /* KSYAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSYAudioFile.m; path = KSYAudioPlotView/KSYAudioFile.m; sourceTree = "<group>"; };
+		25D6602818753C9C6473D1834E00D715 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		26913C5DE27C6B14F5293F61CA05AD4D /* KSYAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSYAudioUtilities.h; path = KSYAudioPlotView/KSYAudioUtilities.h; sourceTree = "<group>"; };
 		37D2A350EC94D1EF9A7AC72AFD4A9947 /* Pods-AudioPlotDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioPlotDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B5F16068AA5A93AE8DD9EB63A6E5888 /* libPods-AudioPlotDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AudioPlotDemo.a"; path = "libPods-AudioPlotDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DB1B5213EA86485FC833560335E181 /* Pods-AudioPlotDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioPlotDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BF0B9841A507965A304604D42001F61 /* KSYAudioPlotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSYAudioPlotView.h; path = KSYAudioPlotView/KSYAudioPlotView.h; sourceTree = "<group>"; };
+		5F2F773B5C071CCAB6435FB1F03D35BA /* KSYAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSYAudioFile.h; path = KSYAudioPlotView/KSYAudioFile.h; sourceTree = "<group>"; };
+		6E6E5A357889F946561108EBE7AA4D73 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		72B196A75A4D2ABADFE51576BE75FB68 /* KSYAudioDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSYAudioDisplayLink.h; path = KSYAudioPlotView/KSYAudioDisplayLink.h; sourceTree = "<group>"; };
+		72ECBC1903F449E85BC6118388F4E815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		780317433DF24E8A7888E7290CFAABAD /* KSYAudioPlotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSYAudioPlotView.m; path = KSYAudioPlotView/KSYAudioPlotView.m; sourceTree = "<group>"; };
+		781DF769F29B1608CB803C3C9819F8C3 /* libKSYAudioPlotView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKSYAudioPlotView.a; path = libKSYAudioPlotView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A87E59CBC96653F2F25A4A8A871411A /* KSYAudioPlotView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSYAudioPlotView-dummy.m"; sourceTree = "<group>"; };
 		819E718B2303B202207F32BE5DC16DFB /* Pods-AudioPlotDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioPlotDemo-dummy.m"; sourceTree = "<group>"; };
-		923AEEA0B7B9BCA555839A885A8D996C /* libPods-AudioPlotDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AudioPlotDemo.a"; path = "libPods-AudioPlotDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE7C739B3F874B846CBF6424E8EAE8F /* KSYPlotCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSYPlotCircularBuffer.h; path = KSYAudioPlotView/KSYPlotCircularBuffer.h; sourceTree = "<group>"; };
+		8DA3E511ED15967E9B292FBAC24053E2 /* KSYAudioDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSYAudioDisplayLink.m; path = KSYAudioPlotView/KSYAudioDisplayLink.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8DD52CD9DA2C9DAC14D4F6A7C4D6DAC /* KSYPlotCircularBuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSYPlotCircularBuffer.c; path = KSYAudioPlotView/KSYPlotCircularBuffer.c; sourceTree = "<group>"; };
 		BB7651049AF11CFB2F4F444150F41A61 /* Pods-AudioPlotDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioPlotDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE02C3BA9661EDE784828BEB9FDF795E /* KSYAudioPlotView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSYAudioPlotView-prefix.pch"; sourceTree = "<group>"; };
+		C9FF61C75FAA278C14394690B580D32D /* KSYAudioPlotView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSYAudioPlotView.xcconfig; sourceTree = "<group>"; };
+		D4A5A707771CA1F2A369C30DCAEE79BE /* KSYAudioPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSYAudioPlot.h; path = KSYAudioPlotView/KSYAudioPlot.h; sourceTree = "<group>"; };
+		DCA17D937CA6EFF5598507021D696FB4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		EEFB9203893B95414978B559C629C3D0 /* Pods-AudioPlotDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioPlotDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F15A4BB93A69957B628A9CD2162014DB /* KSYAudioUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSYAudioUtilities.m; path = KSYAudioPlotView/KSYAudioUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D1B93715EB628F747B26143E6EA2290C /* Frameworks */ = {
+		7FFD31029BA93762C31E68D50B07E5DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2DB08C137AF1A7C3A47CBDD12F5B8F /* Foundation.framework in Frameworks */,
+				1FA4B812CCC1036C49176FE4CF910346 /* Accelerate.framework in Frameworks */,
+				9AC5E6A507BAB089E6DB81CA8ED0C945 /* AudioToolbox.framework in Frameworks */,
+				7A0B7B2C71214C2547192EC7052A3D0E /* AVFoundation.framework in Frameworks */,
+				E870ACC778EB6CDDE64E2398FB9E0F40 /* Foundation.framework in Frameworks */,
+				4BFCA0D3FB833ECDFFE5EDF0E8266261 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E5BA0E286A76753BD4F1C7D820D91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B0A07BC476FAB80B2BBD84CD1A306 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B6BB1A8F50AA829BF0256666FBCB42B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		333D75A431F1758FB51861FBDAE16B34 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				6C0A33EFA56935DFD5A0907602535610 /* Pods-AudioPlotDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B6BB1A8F50AA829BF0256666FBCB42B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E6E5A357889F946561108EBE7AA4D73 /* Accelerate.framework */,
+				DCA17D937CA6EFF5598507021D696FB4 /* AudioToolbox.framework */,
+				206847552DB87A9E22095490C1FB19CD /* AVFoundation.framework */,
+				72ECBC1903F449E85BC6118388F4E815 /* Foundation.framework */,
+				25D6602818753C9C6473D1834E00D715 /* GLKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6C0A33EFA56935DFD5A0907602535610 /* Pods-AudioPlotDemo */ = {
@@ -63,53 +141,112 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8B651B5C1A08F6D872D126CCE566C61C /* Products */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				F0DE471C6654858031C93CBEB8AF02D8 /* Pods */,
+				9CF6DB1E6AED63C68504607B9CED786C /* Products */,
 				333D75A431F1758FB51861FBDAE16B34 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B651B5C1A08F6D872D126CCE566C61C /* Products */ = {
+		9CF6DB1E6AED63C68504607B9CED786C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				923AEEA0B7B9BCA555839A885A8D996C /* libPods-AudioPlotDemo.a */,
+				781DF769F29B1608CB803C3C9819F8C3 /* libKSYAudioPlotView.a */,
+				3B5F16068AA5A93AE8DD9EB63A6E5888 /* libPods-AudioPlotDemo.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B8660D82FFC6F34FF6AD7BC5C613FEF1 /* KSYAudioPlotView */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				72B196A75A4D2ABADFE51576BE75FB68 /* KSYAudioDisplayLink.h */,
+				8DA3E511ED15967E9B292FBAC24053E2 /* KSYAudioDisplayLink.m */,
+				5F2F773B5C071CCAB6435FB1F03D35BA /* KSYAudioFile.h */,
+				22875ADEAF63C48ACEADA2E589429F74 /* KSYAudioFile.m */,
+				D4A5A707771CA1F2A369C30DCAEE79BE /* KSYAudioPlot.h */,
+				5BF0B9841A507965A304604D42001F61 /* KSYAudioPlotView.h */,
+				780317433DF24E8A7888E7290CFAABAD /* KSYAudioPlotView.m */,
+				26913C5DE27C6B14F5293F61CA05AD4D /* KSYAudioUtilities.h */,
+				F15A4BB93A69957B628A9CD2162014DB /* KSYAudioUtilities.m */,
+				A8DD52CD9DA2C9DAC14D4F6A7C4D6DAC /* KSYPlotCircularBuffer.c */,
+				8CE7C739B3F874B846CBF6424E8EAE8F /* KSYPlotCircularBuffer.h */,
+				CF026904EB39D34B516159DCB07B97ED /* Support Files */,
 			);
-			name = Frameworks;
+			name = KSYAudioPlotView;
+			path = KSYAudioPlotView;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		CF026904EB39D34B516159DCB07B97ED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				C9FF61C75FAA278C14394690B580D32D /* KSYAudioPlotView.xcconfig */,
+				7A87E59CBC96653F2F25A4A8A871411A /* KSYAudioPlotView-dummy.m */,
+				BE02C3BA9661EDE784828BEB9FDF795E /* KSYAudioPlotView-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/KSYAudioPlotView";
+			sourceTree = "<group>";
+		};
+		F0DE471C6654858031C93CBEB8AF02D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8660D82FFC6F34FF6AD7BC5C613FEF1 /* KSYAudioPlotView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		029EE15410D9008E87B32CECDC7435B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6656878E7588DCC6A5033737ED211F90 /* KSYAudioDisplayLink.h in Headers */,
+				EC28B7EF8C491459895255DA1D28B9F1 /* KSYAudioFile.h in Headers */,
+				DAF6454DE7E4A3E1DA038710520F8F8A /* KSYAudioPlot.h in Headers */,
+				A9A6B8066441415458A55D53F17D60EF /* KSYAudioPlotView.h in Headers */,
+				274B6AC3513FD633545F2926FCA9AF45 /* KSYAudioUtilities.h in Headers */,
+				9E67DB22BEBCC9EA02C989AEB41D458D /* KSYPlotCircularBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		AFBBD8FFC09037490FD9EAD5472B6485 /* Pods-AudioPlotDemo */ = {
+		820B00B97652883F2984D76CB2851E45 /* KSYAudioPlotView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55BA5ED55B7BAA6B57DFB0A73A300248 /* Build configuration list for PBXNativeTarget "Pods-AudioPlotDemo" */;
+			buildConfigurationList = D609904247FA09FC2D36529ECE6845C4 /* Build configuration list for PBXNativeTarget "KSYAudioPlotView" */;
 			buildPhases = (
-				391C9C4F07EA5001089080C3CDDB0B66 /* Sources */,
-				D1B93715EB628F747B26143E6EA2290C /* Frameworks */,
+				7E591CDC38EEA7DE16CCCB43DEC35E44 /* Sources */,
+				7FFD31029BA93762C31E68D50B07E5DE /* Frameworks */,
+				029EE15410D9008E87B32CECDC7435B1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = KSYAudioPlotView;
+			productName = KSYAudioPlotView;
+			productReference = 781DF769F29B1608CB803C3C9819F8C3 /* libKSYAudioPlotView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7D9E2E01C40D4480B476D43B6D9DE80 /* Pods-AudioPlotDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD53FBB9E63C0C3ADACFA161CEEB416 /* Build configuration list for PBXNativeTarget "Pods-AudioPlotDemo" */;
+			buildPhases = (
+				74B95153405BF4D490DB788BEA85F636 /* Sources */,
+				A8E5BA0E286A76753BD4F1C7D820D91F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				619B5D2CF11D7F22CD40F6C62B3BBB64 /* PBXTargetDependency */,
+			);
 			name = "Pods-AudioPlotDemo";
 			productName = "Pods-AudioPlotDemo";
-			productReference = 923AEEA0B7B9BCA555839A885A8D996C /* libPods-AudioPlotDemo.a */;
+			productReference = 3B5F16068AA5A93AE8DD9EB63A6E5888 /* libPods-AudioPlotDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,51 +266,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8B651B5C1A08F6D872D126CCE566C61C /* Products */;
+			productRefGroup = 9CF6DB1E6AED63C68504607B9CED786C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFBBD8FFC09037490FD9EAD5472B6485 /* Pods-AudioPlotDemo */,
+				820B00B97652883F2984D76CB2851E45 /* KSYAudioPlotView */,
+				A7D9E2E01C40D4480B476D43B6D9DE80 /* Pods-AudioPlotDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		391C9C4F07EA5001089080C3CDDB0B66 /* Sources */ = {
+		74B95153405BF4D490DB788BEA85F636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536ECA0A903C2678059B0DD9576FA0A4 /* Pods-AudioPlotDemo-dummy.m in Sources */,
+				540F5918280412AF6AF7567AF6B617AA /* Pods-AudioPlotDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E591CDC38EEA7DE16CCCB43DEC35E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C069A8D148566410B9070874D93B4 /* KSYAudioDisplayLink.m in Sources */,
+				676E3E8FC3043B5B966525D61BCC6218 /* KSYAudioFile.m in Sources */,
+				3AE37F5E09B2D2118A77BAA7E33258D7 /* KSYAudioPlotView-dummy.m in Sources */,
+				95F396AE88FE69CD57B2362CE9A150F9 /* KSYAudioPlotView.m in Sources */,
+				8A3389AC701A945A3F241E8633249D94 /* KSYAudioUtilities.m in Sources */,
+				181B569E09DE169D1BE40724ACD7665C /* KSYPlotCircularBuffer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		12987D06BDAC955421495A30B0BFB797 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44DB1B5213EA86485FC833560335E181 /* Pods-AudioPlotDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		619B5D2CF11D7F22CD40F6C62B3BBB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSYAudioPlotView;
+			target = 820B00B97652883F2984D76CB2851E45 /* KSYAudioPlotView */;
+			targetProxy = 5CBD712BA38C1299BFAE01A67AD894E6 /* PBXContainerItemProxy */;
 		};
-		17EB2009B7CA99A2FD82755E1F9F35DF /* Release */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15B39A7B391758C6E23883ADEDCEE5DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1ED6E04A42D12150B6EF8397DE5B169C /* Pods-AudioPlotDemo.release.xcconfig */;
 			buildSettings = {
@@ -240,6 +377,75 @@
 			};
 			name = Release;
 		};
+		76A465E19B9439AE7E7F08A2FE79A278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DB1B5213EA86485FC833560335E181 /* Pods-AudioPlotDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		991893F811BC7B187A8131F1A0537DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FF61C75FAA278C14394690B580D32D /* KSYAudioPlotView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSYAudioPlotView/KSYAudioPlotView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A35E0A2F15091A8F2E604D1958EA7EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FF61C75FAA278C14394690B580D32D /* KSYAudioPlotView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSYAudioPlotView/KSYAudioPlotView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -300,11 +506,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55BA5ED55B7BAA6B57DFB0A73A300248 /* Build configuration list for PBXNativeTarget "Pods-AudioPlotDemo" */ = {
+		8BD53FBB9E63C0C3ADACFA161CEEB416 /* Build configuration list for PBXNativeTarget "Pods-AudioPlotDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12987D06BDAC955421495A30B0BFB797 /* Debug */,
-				17EB2009B7CA99A2FD82755E1F9F35DF /* Release */,
+				76A465E19B9439AE7E7F08A2FE79A278 /* Debug */,
+				15B39A7B391758C6E23883ADEDCEE5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D609904247FA09FC2D36529ECE6845C4 /* Build configuration list for PBXNativeTarget "KSYAudioPlotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991893F811BC7B187A8131F1A0537DD7 /* Debug */,
+				A35E0A2F15091A8F2E604D1958EA7EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

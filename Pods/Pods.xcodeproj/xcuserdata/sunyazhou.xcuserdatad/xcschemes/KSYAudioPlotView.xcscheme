@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A7D9E2E01C40D4480B476D43B6D9DE80'
-               BlueprintName = 'Pods-AudioPlotDemo'
+               BlueprintIdentifier = '820B00B97652883F2984D76CB2851E45'
+               BlueprintName = 'KSYAudioPlotView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-AudioPlotDemo.a'>
+               BuildableName = 'libKSYAudioPlotView.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
