@@ -21,16 +21,14 @@
 		3F8269211EF4C7990087BB4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8269201EF4C7990087BB4C /* CoreGraphics.framework */; };
 		3F8269231EF4C7A20087BB4C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8269221EF4C7A20087BB4C /* AudioToolbox.framework */; };
 		3F8269251EF4C7AB0087BB4C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8269241EF4C7AB0087BB4C /* OpenGLES.framework */; };
-		3F8269481EF4CA390087BB4C /* KSYAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F82693F1EF4CA390087BB4C /* KSYAudioDisplayLink.m */; };
-		3F8269491EF4CA390087BB4C /* KSYAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269411EF4CA390087BB4C /* KSYAudioFile.m */; };
-		3F82694A1EF4CA390087BB4C /* KSYAudioPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269431EF4CA390087BB4C /* KSYAudioPlotView.m */; };
-		3F82694B1EF4CA390087BB4C /* KSYAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269451EF4CA390087BB4C /* KSYAudioUtilities.m */; };
-		3F82694C1EF4CA390087BB4C /* KSYPlotCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269461EF4CA390087BB4C /* KSYPlotCircularBuffer.c */; };
-		C7C05122DF3A72E168C65ADC /* libPods-AudioPlotDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F874987215F8214B0FF6D29F /* libPods-AudioPlotDemo.a */; };
+		3F82695A1EF4D4CF0087BB4C /* KSYAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269501EF4D4CF0087BB4C /* KSYAudioDisplayLink.m */; };
+		3F82695B1EF4D4CF0087BB4C /* KSYAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269521EF4D4CF0087BB4C /* KSYAudioFile.m */; };
+		3F82695C1EF4D4CF0087BB4C /* KSYAudioPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269551EF4D4CF0087BB4C /* KSYAudioPlotView.m */; };
+		3F82695D1EF4D4CF0087BB4C /* KSYAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269571EF4D4CF0087BB4C /* KSYAudioUtilities.m */; };
+		3F82695E1EF4D4CF0087BB4C /* KSYPlotCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F8269581EF4D4CF0087BB4C /* KSYPlotCircularBuffer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32C3B8C17204B31591842E6C /* Pods-AudioPlotDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioPlotDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioPlotDemo/Pods-AudioPlotDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8268FC1EF4C4DD0087BB4C /* AudioPlotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8269001EF4C4DD0087BB4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F8269021EF4C4DD0087BB4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,19 +47,17 @@
 		3F8269201EF4C7990087BB4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3F8269221EF4C7A20087BB4C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3F8269241EF4C7AB0087BB4C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		3F82693E1EF4CA390087BB4C /* KSYAudioDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioDisplayLink.h; sourceTree = "<group>"; };
-		3F82693F1EF4CA390087BB4C /* KSYAudioDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioDisplayLink.m; sourceTree = "<group>"; };
-		3F8269401EF4CA390087BB4C /* KSYAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioFile.h; sourceTree = "<group>"; };
-		3F8269411EF4CA390087BB4C /* KSYAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioFile.m; sourceTree = "<group>"; };
-		3F8269421EF4CA390087BB4C /* KSYAudioPlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioPlotView.h; sourceTree = "<group>"; };
-		3F8269431EF4CA390087BB4C /* KSYAudioPlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioPlotView.m; sourceTree = "<group>"; };
-		3F8269441EF4CA390087BB4C /* KSYAudioUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioUtilities.h; sourceTree = "<group>"; };
-		3F8269451EF4CA390087BB4C /* KSYAudioUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioUtilities.m; sourceTree = "<group>"; };
-		3F8269461EF4CA390087BB4C /* KSYPlotCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KSYPlotCircularBuffer.c; sourceTree = "<group>"; };
-		3F8269471EF4CA390087BB4C /* KSYPlotCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYPlotCircularBuffer.h; sourceTree = "<group>"; };
-		3F82694D1EF4CC660087BB4C /* KSYAudioPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioPlot.h; sourceTree = "<group>"; };
-		6671F27783D33FE53E63B239 /* Pods-AudioPlotDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioPlotDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioPlotDemo/Pods-AudioPlotDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F874987215F8214B0FF6D29F /* libPods-AudioPlotDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudioPlotDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F82694F1EF4D4CF0087BB4C /* KSYAudioDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioDisplayLink.h; sourceTree = "<group>"; };
+		3F8269501EF4D4CF0087BB4C /* KSYAudioDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioDisplayLink.m; sourceTree = "<group>"; };
+		3F8269511EF4D4CF0087BB4C /* KSYAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioFile.h; sourceTree = "<group>"; };
+		3F8269521EF4D4CF0087BB4C /* KSYAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioFile.m; sourceTree = "<group>"; };
+		3F8269531EF4D4CF0087BB4C /* KSYAudioPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioPlot.h; sourceTree = "<group>"; };
+		3F8269541EF4D4CF0087BB4C /* KSYAudioPlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioPlotView.h; sourceTree = "<group>"; };
+		3F8269551EF4D4CF0087BB4C /* KSYAudioPlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioPlotView.m; sourceTree = "<group>"; };
+		3F8269561EF4D4CF0087BB4C /* KSYAudioUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYAudioUtilities.h; sourceTree = "<group>"; };
+		3F8269571EF4D4CF0087BB4C /* KSYAudioUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYAudioUtilities.m; sourceTree = "<group>"; };
+		3F8269581EF4D4CF0087BB4C /* KSYPlotCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KSYPlotCircularBuffer.c; sourceTree = "<group>"; };
+		3F8269591EF4D4CF0087BB4C /* KSYPlotCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYPlotCircularBuffer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +72,6 @@
 				3F82691D1EF4C78D0087BB4C /* Foundation.framework in Frameworks */,
 				3F82691B1EF4C7870087BB4C /* AVFoundation.framework in Frameworks */,
 				3F8269191EF4C7810087BB4C /* Accelerate.framework in Frameworks */,
-				C7C05122DF3A72E168C65ADC /* libPods-AudioPlotDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +83,6 @@
 			children = (
 				3F8268FE1EF4C4DD0087BB4C /* AudioPlotDemo */,
 				3F8268FD1EF4C4DD0087BB4C /* Products */,
-				A3E774D7B1F4B55280E285B6 /* Pods */,
 				58327A6DF9D6703E1FC8850E /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -104,7 +98,7 @@
 		3F8268FE1EF4C4DD0087BB4C /* AudioPlotDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3F82693D1EF4CA390087BB4C /* KSYAduioPlotView */,
+				3F82694E1EF4D4CF0087BB4C /* KSYAudioPlotView */,
 				3F8269161EF4C6990087BB4C /* 17yeasold.mp3 */,
 				3F8269021EF4C4DD0087BB4C /* AppDelegate.h */,
 				3F8269031EF4C4DD0087BB4C /* AppDelegate.m */,
@@ -127,22 +121,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F82693D1EF4CA390087BB4C /* KSYAduioPlotView */ = {
+		3F82694E1EF4D4CF0087BB4C /* KSYAudioPlotView */ = {
 			isa = PBXGroup;
 			children = (
-				3F82693E1EF4CA390087BB4C /* KSYAudioDisplayLink.h */,
-				3F82693F1EF4CA390087BB4C /* KSYAudioDisplayLink.m */,
-				3F8269401EF4CA390087BB4C /* KSYAudioFile.h */,
-				3F8269411EF4CA390087BB4C /* KSYAudioFile.m */,
-				3F8269421EF4CA390087BB4C /* KSYAudioPlotView.h */,
-				3F8269431EF4CA390087BB4C /* KSYAudioPlotView.m */,
-				3F8269441EF4CA390087BB4C /* KSYAudioUtilities.h */,
-				3F8269451EF4CA390087BB4C /* KSYAudioUtilities.m */,
-				3F8269461EF4CA390087BB4C /* KSYPlotCircularBuffer.c */,
-				3F8269471EF4CA390087BB4C /* KSYPlotCircularBuffer.h */,
-				3F82694D1EF4CC660087BB4C /* KSYAudioPlot.h */,
+				3F82694F1EF4D4CF0087BB4C /* KSYAudioDisplayLink.h */,
+				3F8269501EF4D4CF0087BB4C /* KSYAudioDisplayLink.m */,
+				3F8269511EF4D4CF0087BB4C /* KSYAudioFile.h */,
+				3F8269521EF4D4CF0087BB4C /* KSYAudioFile.m */,
+				3F8269531EF4D4CF0087BB4C /* KSYAudioPlot.h */,
+				3F8269541EF4D4CF0087BB4C /* KSYAudioPlotView.h */,
+				3F8269551EF4D4CF0087BB4C /* KSYAudioPlotView.m */,
+				3F8269561EF4D4CF0087BB4C /* KSYAudioUtilities.h */,
+				3F8269571EF4D4CF0087BB4C /* KSYAudioUtilities.m */,
+				3F8269581EF4D4CF0087BB4C /* KSYPlotCircularBuffer.c */,
+				3F8269591EF4D4CF0087BB4C /* KSYPlotCircularBuffer.h */,
 			);
-			path = KSYAduioPlotView;
+			path = KSYAudioPlotView;
 			sourceTree = SOURCE_ROOT;
 		};
 		58327A6DF9D6703E1FC8850E /* Frameworks */ = {
@@ -155,18 +149,8 @@
 				3F82691C1EF4C78D0087BB4C /* Foundation.framework */,
 				3F82691A1EF4C7870087BB4C /* AVFoundation.framework */,
 				3F8269181EF4C7810087BB4C /* Accelerate.framework */,
-				F874987215F8214B0FF6D29F /* libPods-AudioPlotDemo.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A3E774D7B1F4B55280E285B6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				32C3B8C17204B31591842E6C /* Pods-AudioPlotDemo.debug.xcconfig */,
-				6671F27783D33FE53E63B239 /* Pods-AudioPlotDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,12 +160,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F8269131EF4C4DD0087BB4C /* Build configuration list for PBXNativeTarget "AudioPlotDemo" */;
 			buildPhases = (
-				1D0181E63B6FC7386DBAC581 /* [CP] Check Pods Manifest.lock */,
 				3F8268F81EF4C4DD0087BB4C /* Sources */,
 				3F8268F91EF4C4DD0087BB4C /* Frameworks */,
 				3F8268FA1EF4C4DD0087BB4C /* Resources */,
-				E8D3E9E9286D8AC8AD31F2B5 /* [CP] Embed Pods Frameworks */,
-				F0AA9791B79CC8A42ADF2AAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,67 +221,19 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1D0181E63B6FC7386DBAC581 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E8D3E9E9286D8AC8AD31F2B5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioPlotDemo/Pods-AudioPlotDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0AA9791B79CC8A42ADF2AAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioPlotDemo/Pods-AudioPlotDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3F8268F81EF4C4DD0087BB4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F82694A1EF4CA390087BB4C /* KSYAudioPlotView.m in Sources */,
+				3F82695C1EF4D4CF0087BB4C /* KSYAudioPlotView.m in Sources */,
 				3F8269071EF4C4DD0087BB4C /* ViewController.m in Sources */,
-				3F8269481EF4CA390087BB4C /* KSYAudioDisplayLink.m in Sources */,
-				3F8269491EF4CA390087BB4C /* KSYAudioFile.m in Sources */,
+				3F82695A1EF4D4CF0087BB4C /* KSYAudioDisplayLink.m in Sources */,
+				3F82695B1EF4D4CF0087BB4C /* KSYAudioFile.m in Sources */,
 				3F8269041EF4C4DD0087BB4C /* AppDelegate.m in Sources */,
-				3F82694C1EF4CA390087BB4C /* KSYPlotCircularBuffer.c in Sources */,
+				3F82695E1EF4D4CF0087BB4C /* KSYPlotCircularBuffer.c in Sources */,
 				3F8269011EF4C4DD0087BB4C /* main.m in Sources */,
-				3F82694B1EF4CA390087BB4C /* KSYAudioUtilities.m in Sources */,
+				3F82695D1EF4D4CF0087BB4C /* KSYAudioUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +351,6 @@
 		};
 		3F8269141EF4C4DD0087BB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32C3B8C17204B31591842E6C /* Pods-AudioPlotDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZGJ54Q7R45;
@@ -435,7 +367,6 @@
 		};
 		3F8269151EF4C4DD0087BB4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6671F27783D33FE53E63B239 /* Pods-AudioPlotDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZGJ54Q7R45;
