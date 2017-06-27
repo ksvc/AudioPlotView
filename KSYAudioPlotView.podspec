@@ -8,11 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name         = "KSYAudioPlotView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "Audio Waveform view"
-  # s.description  = <<-DESC
-                   # DESC
-  s.homepage     = "https://github.com/sunyazhou13/AudioPlotView"
+  s.description  = <<-DESC
+                    金山云音频视波图UI组件
+                   DESC
+  s.homepage     = "https://github.com/ksvc/AudioPlotView"
   s.license      = {:type => 'Proprietary', :text => <<-LICENSE
       Copyright 2017 kingsoft Ltd. All rights reserved.
       LICENSE
@@ -21,7 +22,7 @@ Pod::Spec.new do |s|
   s.author             = { "sunyazhou" => "sunyazhou@kingsoft.com" }
   s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = '10.8'
-  s.source       = { :git => "https://github.com/sunyazhou13/AudioPlotView.git", 
+  s.source       = { :git => "https://github.com/ksvc/AudioPlotView.git", 
                      :tag => s.version }
   s.ios.frameworks = 'AudioToolbox','AVFoundation','GLKit', 'Accelerate'
   # s.osx.frameworks = 'AudioToolbox','AudioUnit','CoreAudio','QuartzCore','OpenGL','GLKit', 'Accelerate'
