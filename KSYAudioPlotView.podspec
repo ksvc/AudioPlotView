@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
       LICENSE
     }
 
-  s.author             = { "sunyazhou" => "sunyazhou@kingsoft.com" }
+  s.author             = { "zengfanping" => "zengfanping@kingsoft.com" }
   s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/ksvc/AudioPlotView.git", 
-                     :tag => s.version }
+                     :tag => 'v'+s.version.to_s }
   s.ios.frameworks = 'AudioToolbox','AVFoundation','GLKit', 'Accelerate'
   # s.osx.frameworks = 'AudioToolbox','AudioUnit','CoreAudio','QuartzCore','OpenGL','GLKit', 'Accelerate'
   s.requires_arc = true;
