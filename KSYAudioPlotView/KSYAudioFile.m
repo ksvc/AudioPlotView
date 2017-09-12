@@ -363,6 +363,11 @@ typedef struct
                                                            &bufferSize,
                                                            audioBufferList)
                                 operation:"Failed to read audio data from file waveform"];
+            if (bufferSize == 0) {
+                // unexpected end of file -- might happen for compressed formats for some reason
+                //fix https://github.com/syedhali/EZAudio/issues/295
+                break;
+            }
             if (interleaved)
             {
                 float *buffer = (float *)audioBufferList->mBuffers[0].mData;

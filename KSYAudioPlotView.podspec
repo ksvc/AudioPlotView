@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "KSYAudioPlotView"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "Audio Waveform view"
   s.description  = <<-DESC
                     金山云音频视波图UI组件
